@@ -16,7 +16,14 @@ messages:
   noright: '&eYou need rights "&btimber.capitate" &eor disable needperms in config'
 # Available axes , If not selected, all will work
 # To add an axe to a block list, just remove the “#” symbol.
-worked-axes: []
+worked-axes:
+- COPPER_AXE
+- DIAMOND_AXE
+- GOLDEN_AXE
+- IRON_AXE
+- NETHERITE_AXE
+- STONE_AXE
+- WOODEN_AXE
 # how much strength is removed by chopping wood.
 axe-durability: 1
 # Sowing a seedling after cutting down a tree
@@ -28,14 +35,14 @@ blocked-trees:
 - BAMBOO_PLANKS
 - BIRCH_PLANKS
 - CHERRY_PLANKS
-- CRIMSON_PLANKS
 - DARK_OAK_PLANKS
 - JUNGLE_PLANKS
-- MANGROVE_PLANKS
 - OAK_PLANKS
 - PALE_OAK_PLANKS
-- SPRUCE_PLANKS
 - WARPED_PLANKS
+- MANGROVE_PLANKS
+- SPRUCE_PLANKS
+- CRIMSON_PLANKS
 # The name of the plugin is displayed in the chat.
 plugin-prefix: '&e[&aTreeTimber&e] '
 # Number of seedlings that can be planted after cutting down a tree

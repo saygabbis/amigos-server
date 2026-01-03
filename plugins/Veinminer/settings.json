@@ -8,7 +8,7 @@
     "permissionRestricted": false,
     "mergeItemDrops": false,
     "autoUpdate": false,
-    "decreaseDurability": true,
+    "decreaseDurability": false,
     "client": {
         "allow": true,
         "translucentBlockHighlight": true,
